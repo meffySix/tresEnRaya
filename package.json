@@ -1,0 +1,20 @@
+{
+  "name": "tresenraya",
+  "version": "1.0.0",
+  "description": "Programación de tests en el 3 en raya",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "tests",
+    "tres",
+    "en",
+    "raya"
+  ],
+  "author": "Dood",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  }
+}
