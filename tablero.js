@@ -1,5 +1,5 @@
 /**
- * Determina cuál es el ganador en un tablero de tres en raya (si hay alguno).
+ * Determina cuál es el ganador en un tablero de tres en raya y si hay alguno.
  * Los posibles resultados serán: 
  * 0 -> no hay ganador
  * 1 -> gana O
