@@ -1,5 +1,5 @@
 const assert = require("assert");
-const {hayGanador} = require("../tablero");
+const {hayGanador, hayHueco} = require("../tablero");
 
 describe("Determina el ganador", function() {
 
