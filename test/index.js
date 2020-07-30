@@ -132,4 +132,44 @@ describe("Hay hueco", function () {
             [0, 0, 0]
         ], 0, 0), true)
     })
+
+    it ("Colocar ficha en 0, 2 tablero vacío", function() {
+        assert.equal(hayHueco([
+            [0, 0, 0],
+            [0, 0, 0],
+            [0, 0, 0]
+        ], 0, 0), true)
+    })
+
+    it ("Colocar ficha en 1, 1 tablero lleno", function() {
+        assert.equal(hayHueco([
+            [1, 2, 2],
+            [1, 2, 1],
+            [2, 1, 2]
+        ], 1, 1), false)
+    })
+
+    it ("Colocar ficha en 1, 1 tablero con hueco", function() {
+        assert.equal(hayHueco([
+            [1, 2, 1],
+            [1, 0, 2],
+            [2, 1, 2]
+        ], 1, 1), true)
+    })
+
+    it ("Colocar ficha en 1, 0 tablero con hueco", function() {
+        assert.equal(hayHueco([
+            [1, 2, 1],
+            [0, 0, 2],
+            [0, 1, 2]
+        ], 1, 0), true)
+    })
+
+    it ("Colocar ficha en 1, 0 tablero sin hueco", function() {
+        assert.equal(hayHueco([
+            [1, 0, 0],
+            [1, 0, 2],
+            [0, 1, 2]
+        ], 1, 0), false)
+    })
 })
