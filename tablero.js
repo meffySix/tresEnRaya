@@ -1,6 +1,6 @@
 /**
  * Determina cuál es el ganador en un tablero de tres en raya (si hay alguno).
- * Los posibles resultados son: 
+ * Los posibles resultados serán: 
  * 0 -> no hay ganador
  * 1 -> gana O
  * 2 -> gana X
@@ -28,7 +28,6 @@ function hayGanador(tablero) {
     // En caso de no ganar nadie
     return 0;
 }
-
 module.exports = {
     hayGanador
 }
