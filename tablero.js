@@ -39,7 +39,7 @@ function hayGanador(tablero) {
  * @param {number} columna Número de columna (de 0 a 2)
  */
 function hayHueco(tablero, fila, columna) {
-    return false; //TODO: falta implementar la lógica
+    return true; //TODO: falta implementar la lógica
 }
 
 module.exports = {
